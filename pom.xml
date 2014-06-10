@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jom.jaring</groupId>
+  <artifactId>selfserviceparent</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>selfserviceparent</name>
+  <description>Parent Project</description>
+  <properties>
+  	<junit.version>4.10</junit.version>
+  	<java.version>1.7</java.version>
+  	<mail.version>1.4</mail.version>
+  	<jdbi.version>2.55</jdbi.version>
+	<guava.version>17.0</guava.version>
+	<mysql.version>5.1.30</mysql.version>
+	<jmx.version>4.2.2.GA</jmx.version>
+	<jboss.system.version>4.0.2</jboss.system.version>
+	<jboss.common.core.version>2.2.22.GA</jboss.common.core.version>
+  </properties>
+  <dependencies>
+  	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>${junit.version}</version>
+		<scope>test</scope>
+	</dependency>
+  </dependencies>
+</project>
