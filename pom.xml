@@ -16,6 +16,8 @@
 	<mysql.version>5.1.30</mysql.version>
 	<jmx.version>4.2.2.GA</jmx.version>
 	<jms.version>1.1</jms.version>
+	<oauth2.version>1.18.0-rc</oauth2.version>
+	<oauth2.service.version>v2-rev70-1.18.0-rc</oauth2.service.version>
 	<quartz.version>2.2.1</quartz.version>
 	<jboss.system.version>4.0.2</jboss.system.version>
 	<resteasy.version>2.3.7.Final</resteasy.version>
