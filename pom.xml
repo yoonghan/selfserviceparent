@@ -22,6 +22,9 @@
 	<jboss.system.version>4.0.2</jboss.system.version>
 	<resteasy.version>2.3.7.Final</resteasy.version>
 	<jboss.common.core.version>2.2.22.GA</jboss.common.core.version>
+	<common-beansutil.version>1.9.2</common-beansutil.version>
+	<jstl.version>1.2</jstl.version>
+	<scala.version>2.11.2</scala.version>
   </properties>
   <dependencies>
   	<dependency>
@@ -29,6 +32,12 @@
 		<artifactId>junit</artifactId>
 		<version>${junit.version}</version>
 		<scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>org.scala-lang</groupId>
+		<artifactId>scala-library</artifactId>
+		<version>${scala.version}</version>
+		<scope>provided</scope>
 	</dependency>
   </dependencies>
 </project>
