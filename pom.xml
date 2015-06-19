@@ -25,6 +25,7 @@
 	<common-beansutil.version>1.9.2</common-beansutil.version>
 	<jstl.version>1.2</jstl.version>
 	<scala.version>2.11.2</scala.version>
+	<imgscalr.version>4.2</imgscalr.version>
   </properties>
   <dependencies>
   	<dependency>
